@@ -1,1 +1,35 @@
-# ilove-pagee
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>I Love You</title>
+<style>
+  body {
+    margin: 0;
+    background: #ffccd5;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  .love-message {
+    color: #d10047;
+    font-size: 6vw;
+    font-weight: bold;
+    position: relative;
+    animation: float 4s ease-in-out infinite;
+    text-shadow: 2px 2px 5px #aa0044;
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-30px); }
+  }
+</style>
+</head>
+<body>
+  <div class="love-message">I love you ❤️</div>
+</body>
+</html>
